@@ -5,7 +5,7 @@ export default function Page({  children }) {
     <section>
       <nav>
         
-        dasda
+        
       </nav>
  
       {children}

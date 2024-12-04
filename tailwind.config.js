@@ -19,6 +19,12 @@ module.exports = {
         skyBlue: '#b1cfeb',
         navyBlue: '#003049',
       },
+      height: {
+        '128': '45%',
+      },
+      scale: {
+        '175': '1.3',
+      }
     },
   },
   plugins: [],

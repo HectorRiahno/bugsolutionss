@@ -2,14 +2,17 @@
 import "./globals.css";
 import Header from "./components/header.js";
 import Cover from "./components/cover.js";
-
+import Services from "./components/services.js";
+import Footer from "./components/footer.js";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-gradient-to-b from-skyBlue to-navyBlue ">
         <Header/>
         <Cover/>
+        <Services/>
+        <Footer/>
         {children}
       </body>
     </html>
