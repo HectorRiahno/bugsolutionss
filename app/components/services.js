@@ -35,14 +35,14 @@ export default function Servvices() {
         Ofrecemos soluciones tecnológicas personalizadas para que tu negocio
         alcance su máximo potencial.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+            className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow hover:scale-175 transition-transform"
           >
             {/* Imagen */}
-            <div className="relative w-full h-48">
+            <div className="sticky w-full h-48 hover:rotate-1 hover:scale-175 transition">
               <Image
                 src={service.image}
                 alt={service.title}
